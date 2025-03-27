@@ -1,0 +1,129 @@
+/* Importando fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a659e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    max-width: 1200px;
+    background-color: #efefd0;
+    height: 500px;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #004e89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 150px;
+    height: auto;
+}
+section{
+    width: 100%;
+    height: 400px;
+    background-color: #efefd0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div{
+   width: 400px;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section div input{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 0;
+    outline: none ;
+    font-family: 'Fredoka One', 'Poppins', sans-serif;
+    font-size: 1.2em;
+    text-indent: 10px;
+    color: #ff6b35;
+    margin-left: 5%
+}
+section div button{
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    font-family: 'Fredoka One', 'Poppins', sans-serif; 
+    font-size: 1.2em;
+}
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #ff6b35;
+}
+footer p{
+    text-align: center;
+    line-height: 90px;
+    font-family:'Fredoka One', 'Poppins', sans-serif;
+    font-size: 1.1em;
+}
+footer p a{
+    color: #1a659e;
+    text-decoration: none;
+}
+footer p a:hover{
+    color:#efefd0
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+    margin-top: 20px; 
+}
+
+form input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #ff6b35;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+form button {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    background-color: #ff6b35;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Fredoka One', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+}
+form button:hover {
+    background-color: #e55a2c;
+}
+nav ul li a {
+    color: #ff6b35; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 0 20px;
+    font-family: 'Fredoka One', 'Poppins', sans-serif; /* Fontes divertidas */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: color 0.3s ease; /* Transição suave para hover */
+}
+nav ul li a:hover {
+    color: #efefd0; /* Cor ao passar o mouse */
+}
